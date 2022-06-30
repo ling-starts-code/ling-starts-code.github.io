@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Skeleton-2.0.4/css/skeleton.css">
+
+  <style>
+  .header {
+    background-color:rgb(198, 220, 221);
+    width: 1000px;
+    border: 15px rgb(235, 196, 226);
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    }
+
+  .content{
+    background-color: rgba(181, 191, 205, 0.957);
+    width: 1000px;
+    border: 15px rgb(235, 196, 226);
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .image{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  body {
+      background-color: rgb(189, 213, 216);
+    }
+   
+@media (max-width: 8.5in) {
+
+}
+    </style>
+
+
+  <title>Sprint 1 Tech Blog</title>
+</head>
+
+<body>
+  <div class="header">
+    <h2><b>What are the best practices associated with using classes vs. ids?</b></h2>
+  </div>
+
+  <div class="content">
+  <h3><hr>This blog is to explain the difference between classes and ids in CSS and the best practice to use them. </h3>
+<p> 
+  Basically, you need two things to build a simple website, HTML and CSS. HTML is where you put your content and CSS is how you make your HTML look good. HTML is like the skeleton and the job of CSS is to add some cloths and makeups to make it prettier. In order to do this, we use a tool called selectors in CSS to achieve it. Selectors, just like the name, is to select the HTML element(s), such as the body part or s certain paragraph to apply the style onto those element(s).
+</p>
+<p> 
+  In CSS, there are two selectors need special attention, ids and classes. Both selectors are used to apply styles in the elements of HTML file.  The selector id, just like a person’s id, is unique. And it can only be used once in an element in HTML.   
+</p>
+<p> 
+  The selector ID just like it’s name, is unique and can only be used once in one element in HTML file. However, CSS class selector can apply a style to more than one elements in HTML. 
+</p>
+<p>
+  Just like this:<br><br>
+<img class="image" src="../images/IDs and Classes example.png" boarder="20" alt="Example"> </p>
+<p>
+  Notice there is only one id in the h1 element, but there can be two classes named “intro” of the p element. As long as these two classes are applying the same style to the two paragraphs, that is totally fine.  
+</p>
+<p>
+  In conclusion, id selector is used for a single element that show up on the web page for only once, such as title, header, menu etc. However, class selector is used for single or multiple elements that appear on the web page for once or more than once, such as paragraphs, boxes, buttons etc. <br>
+  The best practice is to use ids for single elements and use classes for multiple elements so you do not have problems later on. 
+</p>
+  </div>
+
+</body>
+</html>
