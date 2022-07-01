@@ -10,7 +10,26 @@
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
-#body { min-height: 100vh; 
+
+body{ 
+    max-width:100%;
+    max-height:100%;
+} 
+
+.w3-row{ 
+  margin-left: 23vw;
+  max-width:100%;
+  max-height:100%;
+}
+
+#card{
+  margin-left: 33vw;
+  max-width:100%;
+  max-height:100%;
+}
+
+#w3-button w3-padding-large w3-white w3-border{
+  margin-left: auto;
 }
 @media ( max-width: 500px) {
 
@@ -46,8 +65,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <p>This is my first tech blog at Dev Academy. It talks about my understanding of how to use classes and ids in HTML and CSS.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><a href="https://ling-starts-code.github.io/blog/html-css.html" target="_blank"><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></a></p>
+          <div class="flex-box">
+            <p><a href="https://ling-starts-code.github.io/blog/html-css.html" target="_blank"><button class="w3-button w3-white w3-border"><b>READ MORE »</b></button></a></p>
+          </div>
         </div>
+
         
         <div class="w3-col m4 w3-hide-small">
           <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
@@ -94,7 +116,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <p>This is my learning plan for the foundation course.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><a href="https://www.youtube.com" target="_blank"><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></a></p>
+          <p><a href="https://ling-starts-code.github.io/blog/learning-plan.html" target="_blank"><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></a></p>
         </div>
         
         <div class="w3-col m4 w3-hide-small">
@@ -106,16 +128,15 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <hr>
 
 <!-- Introduction menu -->
-<div class="w3-col l4">
+<div class="w3-col l8">
   <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
+  <div id="card" class="w3-card w3-margin w3-margin-top">
   <img src="./images/blog profile.jpg" style="width:100%">
     <div class="w3-container w3-white">
       <h4><b>About Me</b></h4>
       <p>Hello strangers! I am Ling. I am currently on maternity leave with a newborn. I also have a 6 year old boy. I came from China and has been in New Zealand for over 4 years with my wee family. Based in Khandallah, Wellington. You might not see me very often on social media, but I am definetely here behind the scence with my hands full! Looking forward to getting to you all!  </p>
     </div>
   </div><hr>
-  
   
 <!-- END Introduction Menu -->
 </div>
