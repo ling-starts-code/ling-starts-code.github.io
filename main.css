@@ -1,0 +1,35 @@
+article {
+  width: 700px;
+  border: 2px rgb(233, 208, 208);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(24, 8, 79);
+  font-size: 40px;
+  text-align: center;
+}
+
+h4{
+  color: rgb(63, 41, 92);
+}
+
+body { 
+  font-family: 'Helvetica';
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.author{
+  text-align: right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
