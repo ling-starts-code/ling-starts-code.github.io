@@ -1,14 +1,18 @@
-<style type="text/css">
+
+body{
+  background-color:rgb(72, 216, 56);
+
+}
 h1 {
   text-align: center;   
   font-size: large;
-  color:rgb(197, 196, 255);
+  color:rgb(30, 28, 181);
   margin-bottom: .3em;
   text-decoration: solid;
 }
 div {
   border: 2px solid green;
-  background-color:rgb(197, 196, 255);
+  background-color:rgb(255, 196, 238);
   padding: 50px;
   width: 20%;
   height: 200px;
